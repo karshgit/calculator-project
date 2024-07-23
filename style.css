@@ -1,0 +1,120 @@
+body{
+    background-color:lightcyan;
+}
+#heading{
+    text-align:center;
+    /* border:2px solid black; */
+    border-radius:20px;
+    background-color:lightblue;
+    box-shadow:black 0px 10px 25px;
+}
+
+/* calculator body */
+#structured{
+    border:3px solid white;
+    border-radius:10px;
+    height:300px;
+    width:500px;
+    color:grey;
+    margin:auto;
+    margin-top:50px;
+    background-color: black;
+    box-shadow:black 0px 0px 10px;
+    
+}
+
+#screen{
+    border:2px solid black;
+    border-radius:10px;
+    height:50px;
+    width:490px;
+    margin:3px;
+    background-color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+    align-items:center;
+}
+
+/* button */
+.button{
+ display:flex;
+ flex-direction:row;
+ gap:10px;
+ /* border:2px solid black; */
+ height:42px;
+ margin:3px;
+ background-color:blue;
+ 
+}
+
+.btn-style{
+    Border:2px solid black;
+    height:80%;
+    width:27%;
+    margin:3px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: bisque;
+
+}
+
+.btn-style:hover{
+  background-color:greenyellow;
+}
+
+/* Operational button */
+.operational-button{
+    Border:2px solid black;
+    height:80%;
+    width:27%;
+    margin:3px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.operational-button:hover{
+    background-color:greenyellow;
+}
+
+#reset_button{
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    background-color:green;
+}
+
+#reset_button:hover{
+    background-color: lightgreen;
+}
+#equal_button{
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    background-color:brown;
+}
+
+#equal_button:hover{
+    background-color:rgb(252, 0, 0);
+}
